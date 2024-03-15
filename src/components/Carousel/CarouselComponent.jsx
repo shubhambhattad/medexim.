@@ -15,7 +15,7 @@ const CarouselComponent = () => {
   return (
     <>
       <div
-        id="carouselExampleControls"
+        id="carouselExampleControl"
         className="carousel slide"
         data-ride="carousel"
         data-interval="false" // Disable auto-sliding
