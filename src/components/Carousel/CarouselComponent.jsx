@@ -7,7 +7,7 @@ const CarouselComponent = () => {
       const carousel = document.getElementById("carouselExampleControls");
       const nextButton = carousel.querySelector(".carousel-control-next");
       nextButton.click();
-    }, 3000); // Change the interval duration as needed
+    }, 100000); // Change the interval duration as needed
 
     return () => clearInterval(carouselInterval);
   }, []);
